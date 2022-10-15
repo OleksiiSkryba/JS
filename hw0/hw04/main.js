@@ -1,6 +1,6 @@
 function look(arr) {
     console.log(arr);
-};
+}
 
 let arrr = [0, 1, 2, 3, 4, 5];
 
@@ -13,7 +13,7 @@ function randomArr(array) {
         rndArr.push(Math.floor(Math.random()*10));
     }  
     look(rndArr);
-};
+}
 
 // randomArr(arrr);
 

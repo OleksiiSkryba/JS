@@ -40,7 +40,7 @@ class Serv extends Comp{
             console.log(`You are playing ${GAME_NAME} with ${this.fps} FSP`);
         }
     }
-};
+}
 
 const gameStation = new Serv('Gamestation', 800, 32);
 gameStation.fps = gameStation.fps*2;
@@ -69,7 +69,7 @@ class Ubook extends Nout{
     power() {
         (this.kg>2||this.acc<4)?console.log('error!'):this.isOn?this.isOn=false:this.isOn=true;
     };
-};
+}
 
 const ultra = new Ubook('Ultra', 700, 4, 13, 3, 2);
 ultra.power();
@@ -86,7 +86,7 @@ class Gold{
         this.age = age;
         this.size = size;
     }
-};
+}
 
 let gArr = [];
 
@@ -94,7 +94,7 @@ for (let g = 0; g < 10; g++) {
     // const element = gArr[g];
     const girl = new Gold(`Goldy${g}`, Math.random()*10+18, 36+g);
     gArr.push(girl);
-};
+}
 
 class Prince extends Gold{
     constructor(name, age, size){
@@ -108,7 +108,7 @@ class Prince extends Gold{
             }
         }
     }
-};
+}
 
 const vasia = new Prince('Vasia', 48, 41);
 vasia.searchGold(gArr);

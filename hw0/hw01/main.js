@@ -116,4 +116,4 @@ switch (color) {
     default:
         console.log("wrong color!");
         break;
-};
+}
