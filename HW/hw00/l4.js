@@ -72,6 +72,7 @@ let numArr = [1, 2, 3, 4, 5, 32, 146];
 // console.log(sum);
 
 let n1 = '    Harry       Potter      '
+let n = '   Mr.    Harry       Potter      '
 let n2 = '    Ron       Whisley      '
 let n3 = '    Hermione       Granger  '
 
@@ -90,4 +91,4 @@ function trimName(name = '') {
     console.log(newName);
 };
 
-trimName(n1);
+trimName(n);
