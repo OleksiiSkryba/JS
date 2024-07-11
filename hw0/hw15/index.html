@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+     initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .outer , .todo {
+            margin: 10px;
+        } 
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+    <form action="/save" name="mainform">
+        <input type="text" placeholder="text input" list="colores" name="textinput">
+        <datalist id="colores">
+            <option value="red">
+            <option value="green">
+            <option value="blue">
+          </datalist>
+        <input type="submit">
+    </form>
+<br>
+<button onclick="(function(){
+console.log('Click!');
+})()">Click mi!</button>
+
+<br>
+<input type="checkbox" id="cbox" name ="box">
+<div class="resolver"></div>
+<video id="video" style="height: 200px;" width="200px">
+    <!-- <track default kind="captions" src="cc.vtt" srclang="en"> -->
+</video>
+<div class="target" style="height: 250px; width: 250px;
+                           background: #000;">Lorem 
+ipsum dolor sit amet consectetur adipisicing elit.
+ Molestias, aspernatur ipsam, eos ducimus similique
+  quod consequuntur rem perferendis distinctio quidem
+   soluta dolore est, neque incidunt labore laboriosam
+    dolor quasi maxime.</div>
+    <br>
+<div class="list"></div>
+<br>
+<button id="knopka">Click!</button>
+<div class="basket"></div>
+<br>
+
+<details>
+    <summary>How does this element work?</summary>
+    <small> Any content inside <code>open</code> is hidden by default.</small>
+  </details>
+  
+ <input type="range" id="slider" list="tickmarks"
+     min="0" max="100" value="40" step="0.1" 
+  >
+  <datalist id="tickmarks">
+    <option value="0" label="0%">
+    <option value="10">
+    <option value="20">
+    <option value="30">
+    <option value="40">
+    <option value="50" label="50%">
+    <option value="60">
+    <option value="70">
+    <option value="80">
+    <option value="90">
+    <option value="100" label="100%">
+  </datalist>
+    <output for="slider">value</output>
+
+    <template>
+        <table>
+            <caption>How many times a scoreline occurred by home and away teams</caption>
+         <tr>
+           <td><!-- Name --></td>
+           <td><!-- Email address --></td>
+          <td> <!-- template.content.cloneNode (true) --></td>
+        </tr>
+        </table>      
+     </template>
+
+     <data value=”9781484254516”>Practical Web Inclusion and Accessibility</data>
+
+     <fieldset>
+        <legend>Remember me?</legend>
+        <label><input type="radio" name="remember" value="yes" /> Yes</label>
+        <label><input type="radio" name="remember" value="no" /> No</label>
+      </fieldset>
+
+    <script src="main.js"></script>
+</body>
+</html>
